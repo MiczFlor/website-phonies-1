@@ -64,10 +64,29 @@
           
 
 <h2>Datenschutzerklärung</h2>
-<p>Die Nutzung unserer Seite ist ohne  eine Angabe von personenbezogenen Daten möglich. Für die Nutzung einzelner  Services unserer Seite können sich hierfür abweichende Regelungen ergeben, die in  diesem Falle nachstehend gesondert erläutert werden. Ihre personenbezogenen  Daten (z.B. Name, Anschrift, E-Mail, Telefonnummer, u.ä.) werden von uns nur  gemäß den Bestimmungen des deutschen Datenschutzrechts verarbeitet. Daten sind dann  personenbezogen, wenn sie eindeutig einer bestimmten natürlichen Person  zugeordnet werden können. Die rechtlichen Grundlagen des Datenschutzes finden  Sie im Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG). Nachstehende  Regelungen informieren Sie insoweit über die Art, den Umfang und Zweck der  Erhebung, die Nutzung und die Verarbeitung von personenbezogenen Daten durch  den Anbieter</p>
-<p><strong>[Name und Anschrift des Betreibers]</strong></p>
-<p><strong>[Telefonnummer des Betreibers]</strong></p>
-<p><strong>[E-Mail des Betreibers]</strong></p>
+<p>Die Nutzung unserer Seite ist ohne  eine Angabe von personenbezogenen Daten möglich. 
+Für die Nutzung einzelner  Services unserer Seite können sich hierfür abweichende Regelungen ergeben, 
+die in  diesem Falle nachstehend gesondert erläutert werden. Ihre personenbezogenen  Daten 
+(z.B. Name, Anschrift, E-Mail, Telefonnummer, u.ä.) werden von uns nur  gemäß den Bestimmungen 
+des deutschen Datenschutzrechts verarbeitet. Daten sind dann  personenbezogen, wenn sie 
+eindeutig einer bestimmten natürlichen Person  zugeordnet werden können. Die rechtlichen 
+Grundlagen des Datenschutzes finden  Sie im Bundesdatenschutzgesetz (BDSG) und dem 
+Telemediengesetz (TMG). Nachstehende  Regelungen informieren Sie insoweit über die Art, 
+den Umfang und Zweck der  Erhebung, die Nutzung und die Verarbeitung von personenbezogenen 
+Daten durch den Anbieter.</p>
+<?php
+/*
+<p>
+Inter.net Germany GmbH<br/>
+Knesebeckstraße 59-61<br/>
+10719 Berlin, Germany<br/>
+Fon +49 30 25430 301<br/>
+Fax +49 30 25430 499<br/>
+kundensupport@de.inter.net<br/>
+http://www.de.inter.net
+</p>
+*/
+?>
 <p>Wir weisen darauf hin, dass die  internetbasierte Datenübertragung Sicherheitslücken aufweist, ein lückenloser  Schutz vor Zugriffen durch Dritte somit unmöglich ist.</p>
 
 <h3>Serverdaten</h3>
