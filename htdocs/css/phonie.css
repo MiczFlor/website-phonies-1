@@ -1,11 +1,39 @@
-@font-face { 
-font-family: "SANSPHONIES"; 
-src: url("_assets/fonts/SANSPHONIES.ttf"); 
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/website-phonies-1/htdocs/_assets/fonts/Montserrat/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: normal;
+  src: url("/website-phonies-1/htdocs/_assets/fonts/Montserrat/Montserrat-Italic.ttf");
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  src: url("/website-phonies-1/htdocs/_assets/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: bold;
+  src: url("/website-phonies-1/htdocs/_assets/fonts/Montserrat/Montserrat-BoldItalic.ttf");
+}
+@font-face {
+  font-family: 'Alice';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/website-phonies-1/htdocs/_assets/fonts/Alice/Alice-Regular.ttf");
 }
 
 body {
   overflow-x: hidden;
-  font-family: sans-serif;
+  font-family: Alice, sans-serif;
+  font-size: 1.1em;
+  line-height: 1em;
 }
 
 p {
@@ -33,7 +61,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0.5em;
 }
 
@@ -53,7 +81,7 @@ section h3.section-subheading {
   font-style: italic;
   margin-bottom: 75px;
   text-transform: none;
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -63,7 +91,7 @@ section h3.section-subheading {
 }
 
 .btn {
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -117,13 +145,13 @@ img::-moz-selection {
   color: white;
   border: 0;
   background-color: #fed136;
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
   color: #fed136;
   /*font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;*/
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -138,7 +166,7 @@ img::-moz-selection {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -198,7 +226,7 @@ img::-moz-selection {
   font-style: italic;
   line-height: 22px;
   margin-bottom: 25px;
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .masthead .intro-text .intro-heading {
@@ -206,7 +234,7 @@ img::-moz-selection {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -219,14 +247,14 @@ img::-moz-selection {
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
-    font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   .masthead .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }
 
@@ -300,7 +328,7 @@ img::-moz-selection {
   font-size: 16px;
   font-style: italic;
   margin: 0;
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #projects * {
@@ -340,7 +368,7 @@ img::-moz-selection {
   font-size: 16px;
   font-style: italic;
   margin: 20px 0 30px;
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -674,27 +702,27 @@ section#contact .form-control:focus {
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
   /* Firefox 18- */
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
   color: #ced4da;
   /* Firefox 19+ */
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 footer {
@@ -708,7 +736,7 @@ footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 footer ul.quicklinks {
@@ -716,7 +744,7 @@ footer ul.quicklinks {
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
-  font-family: 'SANSPHONIES', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 ul.social-buttons {

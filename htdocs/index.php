@@ -17,7 +17,7 @@
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
 
     <!-- Custom styles for this template -->
     <link href="css/phonie.css" rel="stylesheet">
@@ -212,7 +212,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Projekte</h2>
-            <h2 class="text-muted">Jede Phoniebox ist ein Original.</h2>
+            <h3 class="text-muted">Jede Phoniebox ist ein Original.</h3>
           </div>
         </div>
         <div class="row">
