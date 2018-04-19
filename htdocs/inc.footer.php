@@ -4,8 +4,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-1">
-            <span class="copyright"></span>
-            <p>Kontakt:</p>
+            <span class="copyright">Kontakt:</span>
           </div>
           <div class="col-md-3 text-center">
             <ul class="list-inline social-buttons">

@@ -118,7 +118,6 @@ http://www.de.inter.net
 <p>
 <a target="_blank" href="https://www.ratgeberrecht.eu/leistungen/muster-datenschutzerklaerung.html" m="1">Muster-Datenschutzerklärung</a> der <a target="_blank" href="https://www.ratgeberrecht.eu/" m="1">Anwaltskanzlei Weiß &amp; Partner</a></p>
           
-          
           </div>
          </div>
        </div>
