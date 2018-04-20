@@ -33,11 +33,10 @@ body {
   overflow-x: hidden;
   font-family: Alice, sans-serif;
   font-size: 1.1em;
-  line-height: 1em;
+  line-height: 1.5em;
 }
 
 p {
-  line-height: 1.75;
 }
 
 a {
@@ -63,6 +62,17 @@ h6 {
   font-weight: 700;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0.5em;
+}
+/* Headline size for mobile and tablet **********************/
+@media (max-width: 767px) {
+  h1,h2,h3,h4,h5,h6 {
+      font-size: 0.5em!important;
+  }
+}
+@media (max-width: 990px) {
+  h1,h2,h3,h4,h5,h6 {
+      font-size: 1.5em!important;
+  }
 }
 
 section {
@@ -341,6 +351,7 @@ img::-moz-selection {
   }
 }
 
+/* PROJECTS MODALS *********************************/
 .portfolio-modal {
   padding-right: 0px !important;
 }
@@ -422,6 +433,14 @@ img::-moz-selection {
   transform: rotate(90deg);
   background-color: #212529;
 }
+
+@media (max-width: 767px) {
+  .portfolio-modal .modal-content h2 {
+      font-size: 1.3em;
+  }
+}
+  
+/* TIMELINE **************************/
 
 .timeline {
   position: relative;
