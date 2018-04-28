@@ -5,8 +5,6 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Phoniebox - die freie Musikbox für Kinder und Erwachsene">
-    <meta name="author" content="Micz Flor">
 
 <?php
 include("inc.lang.php"); 
