@@ -46,14 +46,15 @@
 
 <?php include("inc.navigation.php"); ?>
 
-    <!-- Header -->
-    <header class="masthead" style="background-color: #18bc9c;">
+    <section id="video">
       <div class="container">
-        <div class="intro-text">
-          <div class="intro-heading text-uppercase">Impressum / Imprint</div>
+        <div class="row">
+          <div class="col-lg-12">
+          </div>
         </div>
-      </div>
-    </header>
+     </div>
+    </section>
+
     
     <section id="text">
       <div class="container">
@@ -67,18 +68,18 @@
 
 <h2>Angaben gemäß § 5 TMG:</h2>
 <p>Micz Flor<br />
-c/o Booktype GmbH<br />
-Prinzessinnenstraße 20<br />
-10969 Berlin</p>
+c/o Inkmap UG<br />
+Wrangelstraße 105<br />
+10997 Berlin</p>
 
 <h2>Kontakt:</h2>
 E-Mail: mflormail&nbsp;. AT&nbsp;. gmail&nbsp;DOT com</p>
 
 <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h2>
 <p>Micz Flor<br />
-c/o Booktype GmbH<br />
-Prinzessinnenstraße 20<br />
-10969 Berlin</p>
+c/o Inkmap UG<br />
+Wrangelstraße 105<br />
+10997 Berlin</p>
 
           </div>
          </div>

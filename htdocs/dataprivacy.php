@@ -46,14 +46,15 @@
 
 <?php include("inc.navigation.php"); ?>
 
-    <!-- Header -->
-    <header class="masthead" style="background-color: #18bc9c;">
+    <section id="video">
       <div class="container">
-        <div class="intro-text">
-          <div class="intro-heading text-uppercase">Data Privacy Policy</div>
+        <div class="row">
+          <div class="col-lg-12">
+          </div>
         </div>
-      </div>
-    </header>
+     </div>
+    </section>
+
     
     <section id="text">
       <div class="container">
@@ -77,8 +78,8 @@ as to  the manner, extent and purpose for collecting, using and processing
 personal  information by the provider.</p>
 
 <?php
-<p>
 /*
+<p>
 Inter.net Germany GmbH<br/>
 Knesebeckstraße 59-61<br/>
 10719 Berlin, Germany<br/>
