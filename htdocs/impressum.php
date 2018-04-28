@@ -61,7 +61,6 @@ include("inc.socialshare.php");
      </div>
     </section>
 
-    
     <section id="text">
       <div class="container">
         <div class="row">
@@ -71,7 +70,8 @@ include("inc.socialshare.php");
           
 
 <h1>Impressum</h1>
-
+<?php
+/*
 <h2>Angaben gemäß § 5 TMG:</h2>
 <p>Micz Flor<br />
 c/o Inkmap UG<br />
@@ -80,12 +80,13 @@ Wrangelstraße 105<br />
 
 <h2>Kontakt:</h2>
 E-Mail: mflormail&nbsp;. AT&nbsp;. gmail&nbsp;DOT com</p>
-
+*/
+?>
+<img src="img/mf-ad.png" alt="" style="width: 320px;">
+<br/>
+<br/>
 <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h2>
-<p>Micz Flor<br />
-c/o Inkmap UG<br />
-Wrangelstraße 105<br />
-10997 Berlin</p>
+<img src="img/mf-a.png" alt="" style="width: 320px;">
 
           </div>
          </div>
