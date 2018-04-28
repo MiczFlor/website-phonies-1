@@ -5,11 +5,14 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Micz Flor">
 
-    <title>Phoniebox - die freie Musikbox für Kinder, Erwachsene und Bastler/innen</title>
+<?php
+include("inc.lang.php"); 
+$l = $lang['de'];
+include("inc.socialshare.php"); 
+?>
 
-<?php include("inc.socialshare.php"); ?>
+    <title><?php print $l['title']; ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/normalize.css" rel="stylesheet">
@@ -18,7 +21,6 @@
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
 
     <!-- Custom styles for this template -->
     <link href="css/phonie.css" rel="stylesheet">

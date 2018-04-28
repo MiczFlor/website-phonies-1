@@ -8,7 +8,13 @@
     <meta name="description" content="Phoniebox - die freie Musikbox für Kinder und Erwachsene">
     <meta name="author" content="Micz Flor">
 
-    <title>Phoniebox - die freie Musikbox für Kinder und Erwachsene</title>
+<?php
+include("inc.lang.php"); 
+$l = $lang['de'];
+include("inc.socialshare.php"); 
+?>
+
+    <title><?php print $l['title']; ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/normalize.css" rel="stylesheet">
