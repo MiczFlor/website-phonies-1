@@ -7,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <?php
-include("inc.lang.php"); 
-$l = $lang['de'];
+include("inc.lang.php");
+if($_GET['l'] == "en") { 
+    $l = $lang['en'];
+} else {
+    $l = $lang['de'];
+}
 include("inc.socialshare.php"); 
 ?>
 
@@ -53,9 +57,9 @@ include("inc.socialshare.php");
     <header class="masthead" style="background-image: url('img/dj-3168590_1920-small2.jpg');">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Hörspiele, Musik, YouTube, Webradio</div>
-          <div class="intro-heading text-uppercase">Die Phoniebox</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#video">So funktioniert's</a>
+          <div class="intro-lead-in"><?php print $l['headerLeadIn']; ?></div>
+          <div class="intro-heading text-uppercase"><?php print $l['headerTitle']; ?></div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#video"><?php print $l['headerStart']; ?></a>
         </div>
       </div>
     </header>
@@ -67,18 +71,13 @@ include("inc.socialshare.php");
           <div class="col-lg-2">
           </div>
           <div class="col-lg-8 text-center">
-              <h3 class="section-heading">Die Phoniebox im Video erklärt:</h3>
-              <h2 class="section-heading text-uppercase">Das Wochenend-Projekt</h2>
+              <h3 class="section-heading"><?php print $l['videoLeadIn']; ?></h3>
+              <h2 class="section-heading text-uppercase"><?php print $l['videoTitle']; ?></h2>
               <div class="embed-responsive embed-responsive-16by9">
                   <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/7GI0VdPehQI?rel=0&amp;showinfo=0"></iframe>
               </div>
               <br/>
-              <p class="">
-                &raquo;Die einfachste Option mit Hardware von der Stange&laquo;, urteilt das Online-Magazin
-                <em>iphone-ticker.de</em> und stellt das Ergebnis der Redaktion im Video vor. 
-                Hier der Link zum kompletten Artikel: 
-                <a href="https://www.iphone-ticker.de/wochenend-projekt-kontaktlose-musikbox-fuer-kinder-123063/" target="_blank">Wochenend-Projekt: Kontaktlose Musikbox für Kinder</a>.
-              </p>
+              <p class=""><?php print $l['videoDescription']; ?></p>
           </div>
          </div>
        </div>
@@ -90,8 +89,8 @@ include("inc.socialshare.php");
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Hör- und Bastelspaß</h2>
-            <h3 class="section-subheading text-muted">Das freie Audiosystem für die kinderleichte Familie</h3>
+            <h2 class="section-heading text-uppercase"><?php print $l['introTitle']; ?></h2>
+            <h3 class="section-subheading text-muted"><?php print $l['introSubtitle']; ?></h3>
           </div>
         </div>
         <div class="row">
@@ -103,11 +102,11 @@ include("inc.socialshare.php");
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>Kinderleicht</h4>
-                    <h4 class="subheading">zu bedienen...</h4>
+                    <h4><?php print $l['timeline01title']; ?></h4>
+                    <h4 class="subheading"><?php print $l['timeline01subtitle']; ?></h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Einfach die Phonie-Karte über die Box streichen und der Hörspaß beginnt.</p>
+                    <p class="text-muted"><?php print $l['timeline01description']; ?></p>
                   </div>
                 </div>
               </li>
@@ -117,11 +116,11 @@ include("inc.socialshare.php");
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>... elternleicht gebaut.</h4>
-                    <h4 class="subheading"></h4>
+                    <h4><?php print $l['timeline02title']; ?></h4>
+                    <h4 class="subheading"><?php print $l['timeline02subtitle']; ?></h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Ganz ohne Lötkolben, schnell zusammengesteckt. Die Zutaten sind gebraucht für unter €50 zu haben und die Software gibt es <a href="https://github.com/MiczFlor/RPi-Jukebox-RFID" target="_blank">gratis im Netz</a>.</p>
+                    <p class="text-muted"><?php print $l['timeline02description']; ?></p>
                   </div>
                 </div>
               </li>
@@ -131,11 +130,11 @@ include("inc.socialshare.php");
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>Steuerung über</h4>
-                    <h4 class="subheading">Handy oder PC</h4>
+                    <h4><?php print $l['timeline03title']; ?></h4>
+                    <h4 class="subheading"><?php print $l['timeline03subtitle']; ?></h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Die Phoniebox ist über WiFi mit deinem Handy, Tablet oder PC verbunden. So kann man sie auch bedienen und mit Musik bestücken.</p>
+                    <p class="text-muted"><?php print $l['timeline03description']; ?></p>
                   </div>
                 </div>
               </li>
@@ -145,11 +144,11 @@ include("inc.socialshare.php");
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>CDs, Kassetten, MP3,</h4>
-                    <h4 class="subheading">YouTube, Webradio und mehr</h4>
+                    <h4><?php print $l['timeline04title']; ?></h4>
+                    <h4 class="subheading"><?php print $l['timeline04subtitle']; ?></h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Die Phoniebox spielt (fast) alles. Fortgeschrittene Tüftler haben sogar schon <a href="https://github.com/MiczFlor/RPi-Jukebox-RFID/issues/18" target="_blank">Spotify integriert</a>.</p>
+                    <p class="text-muted"><?php print $l['timeline04description']; ?></p>
                   </div>
                 </div>
               </li>
@@ -170,8 +169,8 @@ include("inc.socialshare.php");
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">You never build alone</h2>
-            <h3 class="section-subheading ">Freie Software, Community und Raspberry Pi</h3>
+            <h2 class="section-heading text-uppercase"><?php print $l['featuresTitle']; ?></h2>
+            <h3 class="section-subheading "><?php print $l['featuresSubtitle']; ?></h3>
           </div>
         </div>
         <div class="row text-center">
@@ -180,30 +179,23 @@ include("inc.socialshare.php");
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-comments fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Community</h4>
-            <p class="">Viele der Bastler/innen sind hilfsbereit und im Netz zu finden, wie z.B. 
-            hier im deutschsprachigen <a href="https://forum-raspberrypi.de/forum/thread/13144-projekt-jukebox4kids-jukebox-fuer-kinder/?postID=314919#post314919" target="_blank">forum-raspberrypi.de</a>.
-            </p>
+            <h4 class="service-heading"><?php print $l['feature01Title']; ?></h4>
+            <p class=""><?php print $l['feature01Description']; ?></p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
             <img src="img/Raspberry_Pi_Logo.svg" style="height: 100%;" alt="">
             </span>
-            <h4 class="service-heading">Raspberry Pi</h4>
-            <p class="">
-              Der mini-PC ist das Herz der Phoniebox und gebraucht inzwischen sehr günstig. 
-              Ohne löten lassen sich Kartenleser und Soundkarte verbinden.</p>
+            <h4 class="service-heading"><?php print $l['feature02Title']; ?></h4>
+            <p class=""><?php print $l['feature02Description']; ?></p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-github fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Freie Software</h4>
-            <p class="">
-                Die Software für die Phoniebox ist <a href="https://github.com/MiczFlor/RPi-Jukebox-RFID" target="_blank">gratis und frei im Netz erhältlich</a>. 
-                Dort findest du auch eine ausführliche Anleitung in englischer Sprache.             
-            </p>
+            <h4 class="service-heading"><?php print $l['feature03Title']; ?></h4>
+            <p class=""><?php print $l['feature03Description']; ?></p>
           </div>
         </div>
       </div>
@@ -214,8 +206,8 @@ include("inc.socialshare.php");
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Projekte</h2>
-            <h3 class="text-muted">Jede Phoniebox ist ein Original.</h3>
+            <h2 class="section-heading text-uppercase"><?php print $l['projectsTitle']; ?></h2>
+            <h3 class="text-muted"><?php print $l['projectsSubtitle']; ?></h3>
           </div>
         </div>
         <div class="row">
@@ -226,11 +218,11 @@ include("inc.socialshare.php");
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/Tissuebox-400x300.jpg" alt="">
+              <img class="img-fluid" src="<?php print $l['project01ImgIntro']; ?>" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4><strike>Tissue</strike>Phoniebox</h4>
-              <p class="text-muted">Eine kurze Anleitung</p>
+              <h4><?php print $l['project01Title']; ?></h4>
+              <p class="text-muted"><?php print $l['project01Subtitle']; ?></p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -240,11 +232,11 @@ include("inc.socialshare.php");
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/Feuerwehr-Geliras-20171228-400x300.jpg" alt="">
+              <img class="img-fluid" src="<?php print $l['project02ImgIntro']; ?>" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Feuerwehr</h4>
-              <p class="text-muted">Ganz heiß!</p>
+              <h4><?php print $l['project02Title']; ?></h4>
+              <p class="text-muted"><?php print $l['project02Subtitle']; ?></p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -254,11 +246,11 @@ include("inc.socialshare.php");
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/Markus-20171218_400x300.jpg" alt="">
+              <img class="img-fluid" src="<?php print $l['project03ImgIntro']; ?>" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Retrofuturismus</h4>
-              <p class="text-muted">Upcycling zur Phoniebox</p>
+              <h4><?php print $l['project03Title']; ?></h4>
+              <p class="text-muted"><?php print $l['project03Subtitle']; ?></p>
             </div>
           </div>
         </div>
@@ -280,25 +272,12 @@ include("inc.socialshare.php");
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase"><strike>Tissue</strike> Phoniebox</h2>
-                  <p class="item-intro text-muted">Eine kurze Bastelanleitung.</p>
-
-
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Tissuebox-Original-800x600.jpg" alt="">
-                  <p>Die Tissuebox von WERKHAUS bildet die Grundlage für die Phoniebox.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Tissuebox-Speakers-800x600.jpg" alt="">
-                  <p>Die USB-Lautsprecher und den Raspberry habe ich günstig auf ebay erstanden.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Tissuebox-Speakers-Disassembled-800x600.jpg" alt="">
-                  <p>Die Lautsprecher auseinanderbauen. Vorsicht: die Drähte sind dünn und können leicht reissen. Den kleinen Verstärker habe ich mit Gewebeband an einen der Lautsprecher geklebt.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Tissuebox-Speakers-Reassembled-800x600.jpg" alt="">
-                  <p>Ein gelochtes Alublech dient als Schutz für die Speaker. Der Kartenleser wurde mit Schrauben fixiert (auch hier: Vorsicht mit den Drähten).</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Tissuebox-RPi-800x600.jpg" alt="">
-                  <p>Der Raspberry wurde luftig direkt mit Schrauben am Boden befestigt. Ein USB-Hub versorgt die Lautsprecher und den Pi mit Strom.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Tissuebox-800x600.jpg" alt="">
-                  <p>Bei der finalen Phoniebox wurde das Alublech über dem Lesegerät durch Plastik ersetzt, da sonst die Karten nicht erkannt wurden.</p>
+                  <h2 class="text-uppercase"><?php print $l['project01Title']; ?></h2>
+                  <p class="item-intro text-muted"><?php print $l['project01Subtitle']; ?></p>
+                  <?php print $l['project01ModalText']; ?>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
-                    Projekt schließen</button>
+                    <?php print $l['projectsModalClose']; ?></button>
                 </div>
               </div>
             </div>
@@ -321,19 +300,12 @@ include("inc.socialshare.php");
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Feuerwehr-Phoniebox</h2>
-                  <p class="item-intro text-muted">Ganz heiß!</p>
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/DbpXD0Y3a-Q?rel=0&amp;showinfo=0"></iframe>
-                  </div>
-                  <p>
-                  Dieses heiße Gefährt funktioniert mit Powerbank und nutzt die GPIO-Knöpfe für Lautstärke und LED Lichteffekte.
-                  Mehr zu diesem Projekt des Users 'Geliras' findest du auf
-                  <a href="https://forum-raspberrypi.de/forum/thread/13144-projekt-jukebox4kids-jukebox-fuer-kinder/?postID=315304#post315304" target="_blank">forum-raspberrypi.de</a>.
-                  </p>
+                  <h2 class="text-uppercase"><?php print $l['project02Title']; ?></h2>
+                  <p class="item-intro text-muted"><?php print $l['project02Subtitle']; ?></p>
+                  <?php print $l['project02ModalText']; ?>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
-                    Projekt schließen</button>
+                    <?php print $l['projectsModalClose']; ?></button>
                 </div>
               </div>
             </div>
@@ -356,21 +328,12 @@ include("inc.socialshare.php");
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Retrofuturismus</h2>
-                  <p class="item-intro text-muted">Upcycling zur Phoniebox</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Markus-20171218_w800-02.jpg" alt="">
-                  <p>
-                  Diesem eleganten, tragbaren Nordmende Radio hat Markus neues Leben eingehaucht.
-                  </p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Markus-20171218_w800-01.jpg" alt="">
-                  <p>
-                  Mit Powerbank, die sich laden läßt (s. Buchse unten links)  
-                  und einem eingelöteten Kartenlesegerät
-                  gilt: Platz ist in der kleinsten Hütte.
-                  </p>
+                  <h2 class="text-uppercase"><?php print $l['project03Title']; ?></h2>
+                  <p class="item-intro text-muted"><?php print $l['project03Subtitle']; ?></p>
+                  <?php print $l['project03ModalText']; ?>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
-                    Projekt schließen</button>
+                    <?php print $l['projectsModalClose']; ?></button>
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-1">
-            <span class="copyright">Kontakt:</span>
+            <span class="copyright"><?php print $l['footerContact']; ?>:</span>
           </div>
           <div class="col-md-3 text-center">
             <ul class="list-inline social-buttons">
@@ -23,14 +23,23 @@
           <div class="col-md-8">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
-                <a href="impressum.php">Impressum</a>
+                <a href="impressum.php"><?php print $l['footerImprint']; ?></a>
               </li>
+<?php
+if($l['footerDataprivacypolicy'] == "de") {
+?>
               <li class="list-inline-item">
-                <a href="datenschutz.php">Datenschutzerklärung</a>
+                <a href="datenschutz.php"><?php print $l['footerDataprivacypolicy']; ?></a>
               </li>
+<?php
+} else {
+?>
               <li class="list-inline-item">
-                <a href="dataprivacy.php">Data Privacy Policy</a>
+                <a href="dataprivacy.php"><?php print $l['footerDataprivacypolicy']; ?></a>
               </li>
+<?php
+}
+?>
             </ul>
           </div>
         </div>
