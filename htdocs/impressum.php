@@ -7,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <?php
-include("inc.lang.php"); 
-$l = $lang['de'];
+include("inc.lang.php");
+if($_GET['l'] == "en") { 
+    $l = $lang['en'];
+} else {
+    $l = $lang['de'];
+}
 include("inc.socialshare.php"); 
 ?>
 

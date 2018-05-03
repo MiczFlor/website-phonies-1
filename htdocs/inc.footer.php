@@ -22,12 +22,12 @@
           </div>
           <div class="col-md-8">
             <ul class="list-inline quicklinks">
+<?php
+if($l['languageAbbrev'] == "de") {
+?>
               <li class="list-inline-item">
                 <a href="impressum.php"><?php print $l['footerImprint']; ?></a>
               </li>
-<?php
-if($l['footerDataprivacypolicy'] == "de") {
-?>
               <li class="list-inline-item">
                 <a href="datenschutz.php"><?php print $l['footerDataprivacypolicy']; ?></a>
               </li>
@@ -35,7 +35,10 @@ if($l['footerDataprivacypolicy'] == "de") {
 } else {
 ?>
               <li class="list-inline-item">
-                <a href="dataprivacy.php"><?php print $l['footerDataprivacypolicy']; ?></a>
+                <a href="impressum.php?l=en"><?php print $l['footerImprint']; ?></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="dataprivacy.php?l=en"><?php print $l['footerDataprivacypolicy']; ?></a>
               </li>
 <?php
 }

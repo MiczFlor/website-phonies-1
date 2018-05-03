@@ -8,7 +8,7 @@
 
 <?php
 include("inc.lang.php"); 
-$l = $lang['de'];
+$l = $lang['en'];
 include("inc.socialshare.php"); 
 ?>
 

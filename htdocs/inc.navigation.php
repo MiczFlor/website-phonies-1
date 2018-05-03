@@ -1,6 +1,8 @@
 <?php
 if(trim(basename($_SERVER['SCRIPT_FILENAME'])) == "index.php") {
     $script_filename = "";
+} elseif($l['languageAbbrev'] == "en") {
+    $script_filename = "index.php?l=en";
 } else {
     $script_filename = "index.php";
 }
