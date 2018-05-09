@@ -152,12 +152,8 @@ include("inc.socialshare.php");
                   </div>
                 </div>
               </li>
-              <!--li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>Kinder<br>hören<br>Eltern<br>baseln</h4>
-                </div>
-              </li-->
             </ul>
+            <img src="img/cassette-3115946_1920-small.jpg" style="max-width: 100%;" class="" alt="digitise old tapes">
           </div>
         </div>
       </div>
