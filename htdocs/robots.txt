@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: img/mf-ad.png
+Disallow: /img/mf-ad.png

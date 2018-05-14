@@ -55,15 +55,15 @@ $lang['de']['project01Subtitle'] = "Eine kurze Anleitung";
 $lang['de']['project01ImgIntro'] = "img/portfolio/Tissuebox-400x300.jpg";
 $lang['de']['project01ModalText'] = "                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-Original-800x600.jpg' alt=''>
                   <p>Die Tissuebox von WERKHAUS bildet die Grundlage für die Phoniebox.</p>
-                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-Speakers-800x600.jpg' alt=''>
+                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-Speakers-800x600.jpg' alt='Tissuebox als Grundstock für Jukebox für Kids: Phoniebox'>
                   <p>Die USB-Lautsprecher und den Raspberry habe ich günstig auf ebay erstanden.</p>
-                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-Speakers-Disassembled-800x600.jpg' alt=''>
+                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-Speakers-Disassembled-800x600.jpg' alt='USB Lautsprecher vorsichtig auseinanderbauen'>
                   <p>Die Lautsprecher auseinanderbauen. Vorsicht: die Drähte sind dünn und können leicht reissen. Den kleinen Verstärker habe ich mit Gewebeband an einen der Lautsprecher geklebt.</p>
-                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-Speakers-Reassembled-800x600.jpg' alt=''>
+                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-Speakers-Reassembled-800x600.jpg' alt='RFID Kartenleser wurde mit Schrauben fixiert'>
                   <p>Ein gelochtes Alublech dient als Schutz für die Speaker. Der Kartenleser wurde mit Schrauben fixiert (auch hier: Vorsicht mit den Drähten).</p>
-                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-RPi-800x600.jpg' alt=''>
+                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-RPi-800x600.jpg' alt='USB-Hub versorgt Raspberry Pi und die USB Lautsprecher mit Strom'>
                   <p>Der Raspberry wurde luftig direkt mit Schrauben am Boden befestigt. Ein USB-Hub versorgt die Lautsprecher und den Pi mit Strom.</p>
-                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-800x600.jpg' alt=''>
+                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-800x600.jpg' alt='Kinder Musikbox mit RFID Karten auf Raspberry Pi Basis'>
                   <p>Bei der finalen Phoniebox wurde das Alublech über dem Lesegerät durch Plastik ersetzt, da sonst die Karten nicht erkannt wurden.</p>";
 $lang['de']['project02Title'] = "Feuerwehr";
 $lang['de']['project02Subtitle'] = "Ganz heiß!";
@@ -79,11 +79,11 @@ $lang['de']['project02ModalText'] = "                  <div class='embed-respons
 $lang['de']['project03Title'] = "Retrofuturismus";
 $lang['de']['project03Subtitle'] = "Upcycling zur Phoniebox";
 $lang['de']['project03ImgIntro'] = "img/portfolio/Markus-20171218_400x300.jpg";
-$lang['de']['project03ModalText'] = "                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Markus-20171218_w800-02.jpg' alt=''>
+$lang['de']['project03ModalText'] = "                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Markus-20171218_w800-02.jpg' alt='Tragbares Vintage Radio wird zur Kinder Musikbox'>
                   <p>
                   Diesem eleganten, tragbaren Nordmende Radio hat Markus neues Leben eingehaucht.
                   </p>
-                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Markus-20171218_w800-01.jpg' alt=''>
+                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Markus-20171218_w800-01.jpg' alt='Das eingelötete RFID Kartenlesegerät'>
                   <p>
                   Mit Powerbank, die sich laden läßt (s. Buchse unten links)  
                   und einem eingelöteten Kartenlesegerät
@@ -157,18 +157,18 @@ $lang['en']['project01Subtitle'] = "Short introduction and manual";
 $lang['en']['project01ImgIntro'] = "img/portfolio/Tissuebox-400x300.jpg";
 $lang['en']['project01ModalText'] = "                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-Original-800x600.jpg' alt=''>
                   <p>A tissue box by WERKHAUS is the foundation for this Phoniebox.</p>
-                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-Speakers-800x600.jpg' alt=''>
+                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-Speakers-800x600.jpg' alt='Tissue box goes RFID Jukebox: Phoniebox'>
                   <p>The USB-speakers and the RPi I bought for next to nothing on ebay.</p>
-                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-Speakers-Disassembled-800x600.jpg' alt=''>
+                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-Speakers-Disassembled-800x600.jpg' alt='USB speakers for jukebox disassembled'>
                   <p>Take the speakers carefully apart, because the super thin wires are easily torn.
                   I taped the small amp to one of the speakers.</p>
-                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-Speakers-Reassembled-800x600.jpg' alt=''>
+                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-Speakers-Reassembled-800x600.jpg' alt='Aluminum sheet shields the speakers'>
                   <p>An aluminum sheet with tiny holes shields the speakers.
                   The card reader was screwed to the lid. When you take it apart, make sure to keep the thin wires intact.</p>
-                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-RPi-800x600.jpg' alt=''>
+                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-RPi-800x600.jpg' alt='Raspberry Pi with good fit and some air'>
                   <p>To give the Raspberry Pi good fit and some air, it was screwed to the bottom of the box.
                   A USB-hub powers the Pi and the speakers.</p>
-                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-800x600.jpg' alt=''>
+                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Tissuebox-800x600.jpg' alt='Functional jukebox for kids using RFID cards to trigger songs'>
                   <p>On the final Phoniebox the aluminum sheet above the card reader was replaced
                   with a plastic sheet. The cards were not read correctly when swiped above the metal.</p>";
 $lang['en']['project02Title'] = "Fire Engine";
@@ -186,10 +186,10 @@ $lang['en']['project03Title'] = "Retrofuturism";
 $lang['en']['project03Subtitle'] = "Upcycling into a Phoniebox";
 $lang['en']['project03ImgIntro'] = "img/portfolio/Markus-20171218_400x300.jpg";
 $lang['en']['project03ModalText'] = "
-                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Markus-20171218_w800-02.jpg' alt=''>
+                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Markus-20171218_w800-02.jpg' alt='Vintage, portable radio turns into kids jukebox'>
                   <p>This elegant, vintage, portable Nordmende radio got a new, shiny identity.
                   </p>
-                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Markus-20171218_w800-01.jpg' alt=''>
+                  <img class='img-fluid d-block mx-auto' src='img/portfolio/Markus-20171218_w800-01.jpg' alt='RFID card reader soldered in at the top'>
                   <p>
                   Using a power bank which is chargeable (see plug on the bottom left) and a card reader soldered in at the top, this project proves that a Phoniebox fits in even the smallest shop.
                   </p>";

@@ -1,11 +1,4 @@
 <!DOCTYPE html>
-<html lang="de">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 <?php
 include("inc.lang.php");
 if($_GET['l'] == "en") { 
@@ -13,6 +6,15 @@ if($_GET['l'] == "en") {
 } else {
     $l = $lang['de'];
 }
+?>
+<html lang="<?php print $l['languageAbbrev']; ?>">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<?php
 include("inc.socialshare.php"); 
 ?>
 
