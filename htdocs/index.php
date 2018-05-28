@@ -55,6 +55,8 @@ include("inc.socialshare.php");
   
 <?php include("inc.navigation.php"); ?>
 
+    <article>
+    
     <!-- Header -->
     <header class="masthead" style="background-image: url('img/dj-3168590_1920-small2.jpg');">
       <div class="container">
@@ -343,7 +345,8 @@ include("inc.socialshare.php");
 
 <?php include("inc.footer.php"); ?>
 
-
+    </article>
+    
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
