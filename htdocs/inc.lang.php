@@ -22,6 +22,8 @@ $lang['de']['videoDescription'] = "&raquo;Die einfachste Option mit Hardware von
                 <em>iphone-ticker.de</em> und stellt das Ergebnis der Redaktion im Video vor. 
                 Hier der Link zum kompletten Artikel: 
                 <a href='https://www.iphone-ticker.de/wochenend-projekt-kontaktlose-musikbox-fuer-kinder-123063/' target='_blank'>Wochenend-Projekt: Kontaktlose Musikbox für Kinder</a>.";
+$lang['de']['video2LeadIn'] = "Step-by-Step Screencast von <em>We love Tech</em>";
+$lang['de']['video2Title'] = "Video Tutorial";
 $lang['de']['introTitle'] = "Hör- und Bastelspaß";
 $lang['de']['introSubtitle'] = "Das freie Audiosystem für die kinderleichte Familie";
 $lang['de']['timeline01title'] = "Kinderleicht";
@@ -124,6 +126,8 @@ $lang['en']['videoDescription'] = "&raquo;The easiest option with off the shelf 
     concludes the online magazine <em>iphone-ticker.de</em> while presenting their version in this video.
     Read the <a href='https://www.iphone-ticker.de/wochenend-projekt-kontaktlose-musikbox-fuer-kinder-123063/' target='_blank'>full article</a> here. All in German, true. If you have an English video to 
     replace this with, contact us!";
+$lang['en']['video2LeadIn'] = "Step-by-Step Screencast by <em>We love Tech</em> (in German)";
+$lang['en']['video2Title'] = "Full Video Tutorial";
 $lang['en']['introTitle'] = "Phoniebox fits your family";
 $lang['en']['introSubtitle'] = "Child's play to build and child's play to use";
 $lang['en']['timeline01title'] = "Childishly";

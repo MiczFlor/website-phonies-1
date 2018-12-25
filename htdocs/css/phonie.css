@@ -76,7 +76,7 @@ h6 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 80px 0;
 }
 
 section h2.section-heading {
@@ -96,7 +96,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
 
@@ -665,6 +665,21 @@ section#video {
   color: #fff;
 }
 section#video a {
+  color: #fed136;
+}
+
+section#video2 .section-heading {
+  color: #fff!important;
+}
+
+section#video2 {
+  background-color: #212529;
+  /*background-image: url("../img/map-image.png");*/
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+section#video2 a {
   color: #fed136;
 }
 

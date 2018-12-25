@@ -48,6 +48,7 @@ include("inc.socialshare.php");
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="_assets/icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    
 
   </head>
 
@@ -82,6 +83,37 @@ include("inc.socialshare.php");
               </div>
               <br/>
               <p class=""><?php print $l['videoDescription']; ?></p>
+          </div>
+         </div>
+       </div>
+    </section>
+    <section id="video2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+              <h3 class="section-heading"><?php print $l['video2LeadIn']; ?></h3>
+              <h2 class="section-heading text-uppercase"><?php print $l['video2Title']; ?></h2>
+              
+              <div class="row">
+                <div class="col-lg-4 text-center">
+                    <a href="https://youtu.be/spHDGSxckmw" rel="nofollow" target="_blank">
+                    <img src="https://i.ytimg.com/vi/spHDGSxckmw/hqdefault.jpg" class="img-responsive" style="max-width:100%;">
+                    <br clear="all">
+                    Installation und Hardware</a>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <a href="https://youtu.be/9ZSKFoWr9WY" rel="nofollow" target="_blank">
+                    <img src="https://i.ytimg.com/vi/9ZSKFoWr9WY/hqdefault.jpg" class="img-responsive" style="max-width:100%;">
+                    <br clear="all">
+                    Web App and Audio / Spotify</a>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <a href="https://youtu.be/YucQuwUD7XE" rel="nofollow" target="_blank">
+                    <img src="https://i.ytimg.com/vi/YucQuwUD7XE/hqdefault.jpg" class="img-responsive" style="max-width:100%;">
+                    <br clear="all">
+                    The finished Phoniebox in action</a>
+                </div>
+              </div>
           </div>
          </div>
        </div>
@@ -342,13 +374,13 @@ include("inc.socialshare.php");
       </div>
     </div>
 
-
 <?php include("inc.footer.php"); ?>
 
     </article>
     
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <!--script src="vendor/jquery/jquery.min.js"></script-->
+    <script src="vendor/jquery/js_jquery.3.2.1.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
@@ -360,6 +392,20 @@ include("inc.socialshare.php");
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+    
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $(".testimonial-carousel").slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        arrows: true,
+        prevArrow: $(".testimonial-carousel-controls .prev"),
+        nextArrow: $(".testimonial-carousel-controls .next")
+      });
+    });
+    </script>
 
   </body>
 
